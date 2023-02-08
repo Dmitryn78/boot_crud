@@ -1,11 +1,12 @@
-package web.controller;
+package com.example.boot_crud.controller;
 
+import com.example.boot_crud.model.User;
+import com.example.boot_crud.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import web.model.User;
-import web.service.UserService;
+
 
 import java.util.List;
 

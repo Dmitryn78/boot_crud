@@ -1,6 +1,7 @@
-package web.model;
+package com.example.boot_crud.model;
 
-import javax.persistence.*;
+
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "Users")
@@ -27,7 +28,7 @@ public class User {
         this.age = age;
     }
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 

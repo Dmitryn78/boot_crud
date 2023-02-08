@@ -1,8 +1,7 @@
-package web.dao;
-
-import web.model.User;
+package com.example.boot_crud.dao;
 
 
+import com.example.boot_crud.model.User;
 
 import java.util.List;
 

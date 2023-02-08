@@ -1,6 +1,7 @@
-package web.service;
+package com.example.boot_crud.service;
 
-import web.model.User;
+
+import com.example.boot_crud.model.User;
 
 import java.util.List;
 
